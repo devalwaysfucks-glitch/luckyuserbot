@@ -26,7 +26,7 @@ import yt_dlp
 # ────────────────────────────────────────────────
 from telethon import TelegramClient, events, functions, types
 from telethon.errors import FloodWaitError, RPCError
-
+from keep_alive import keep_alive
 # ────────────────────────────────────────────────
 #                 BASIC PATH SETUP
 # ────────────────────────────────────────────────
